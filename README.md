@@ -35,7 +35,9 @@ Il est demandé aux participants d'être équipés d'un ordinateur portable et i
 
 Une version de python supérieure à 3.13 est requise, pour vérifier votre version : 
 
-> python3 --version
+```shell
+python3 --version
+``
 
 L'idéal est de créer un environement virtuel, pour éviter tout conflit avec d'autres installations de paquets.
 
@@ -46,11 +48,15 @@ source .venv/bin/activate
 ```
 Les paquets Python nécessaires à la formation sont listés dans le fichier `requirements.txt`. Pour les installer depuis la console, il suffit de taper la commande :
 
-> pip install -r requirements.txt
+```shell
+pip install -r requirements.txt
+``
 
 Les travaux pratiques se feront sur des notebook Python. Pour vérifier que les dépendances ont été correctement installées, lancer un `jupyterlab` depuis le répertoire `TPs` en tapant la commande
 
-> jupyter lab
+```shell
+jupyter lab
+```
 
 et exécuter le notebook `test.ipynb`.
 
